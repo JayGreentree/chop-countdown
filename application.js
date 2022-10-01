@@ -11,7 +11,8 @@ $(function () {
     }
 
     $.ajax({
-      url: "data.json",
+      //url: "data.json",
+        url: 'http://24.100.108.140/v1/events/current',
       success: function (data) {
         $('#churchonline_counter').show();
 
