@@ -1,6 +1,6 @@
 # Description
 
-Basic countdown timer used on www.lifechurch.tv and for live.lifechurch.tv.
+Basic countdown timer using craft cms custom css/js and the craft craft cms calendarize plugin.
 
 # Requirements
 
@@ -17,4 +17,4 @@ JSON data with a unix timestamp for the time you're counting down to. Sample:
         $ cd /my-project-path/
         $ python -m SimpleHTTPServer
 
-2. The sample JSON file (data.json) includes a timestamp that may be old.  If you load this all up to preview it, make sure you change the timestamp to something in the future.
+2. The sample JSON file (data.json) includes a timestamp that may be old.  If you load this all up to preview it, make sure you change the timestamp to something in the future. (Not neccessary if using data.json.twig in craft as it will automatically update.)
