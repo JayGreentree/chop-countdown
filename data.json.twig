@@ -1,6 +1,6 @@
 {% header "Content-Type: application/json; charset=utf-8" %}
 {% header "Access-Control-Allow-Origin: *" %}
 
-{% for entry in craft.entries.section('countdown') %}
+{% for entry in craft.entries.section('events') %}
 {"next_timestamp": {{ entry.eventDateTime | date('U') }},"next_title": "{{ entry.title }}","next_description": "{{ entry.eventDetails }}"}
 {% endfor %}
