@@ -11,7 +11,7 @@ $(function () {
     }
 
     $.ajax({
-      url: "https://jaygreentree.github.io/chop-countdown/data.json",
+      url: "https://jaygreentree.org/api/current.json",
       success: function (data) {
         $('#churchonline_counter').show();
 
