@@ -11,7 +11,7 @@ $(function () {
     }
 
     $.ajax({
-      url: "https://jaygreentree.org/api/current.json",
+      url: "https://jaygreentree.org/api/current",
       success: function (data) {
         $('#churchonline_counter').show();
 
